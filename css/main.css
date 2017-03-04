@@ -1,0 +1,41 @@
+a {
+  text-decoration: none;
+  color: #555577;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background: #777788;
+  border-color: #555566;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+nav {
+  background: #555566;
+}
+
+nav a, nav a:visited {
+  color: #fff;
+}
+
+nav a.selected, nav a:hover {
+  color: #bbbbcc;
+}
+
+body {
+  background: #fff;
+  color: #999;
+}
