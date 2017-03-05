@@ -1,33 +1,132 @@
-a {
-  text-decoration: none;
-  color: #555577;
+/************************
+GENERAL
+************************/
+/* site body */
+body {
+  font-family: 'Josefin Sans', sans-serif;
 }
+/* section and footer */
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
 }
+/* links */
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+/************************
+HEADING
+************************/
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
 #logo {
   text-align: center;
   margin: 0;
+  padding-bottom: -10px;
 }
-header {
-  background: #777788;
-  border-color: #555566;
+h1 {
+  padding-top: 10px;
+  margin: 15px 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.75em;
+  line-height: 0.8em;
+  font-weight: normal;
 }
-h1, h2 {
-  color: #fff;
+h2 {
+  margin: -5px 0 0;
+  font-weight: normal;
 }
+/************************
+NAVIGATION
+************************/
 nav {
-  background: #555566;
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
 }
-nav a, nav a:visited {
-  color: #fff;
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
 }
-nav a.selected, nav a:hover {
-  color: #bbbbcc;
+nav li {
+  display: inline-block;
 }
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+/************************
+PAGE: PORTFOLIO
+************************/
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+}
+/************************
+FOOTER
+************************/
+footer {
+  text-align: center;
+  padding-top: 50px;
+  color: #ccc;
+  clear: both;
+}
+.social-icon {
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+}
+/************************
+COLORS
+************************/
 body {
   background: #fff;
   color: #999;
+}
+/* gray header */
+header {
+  background: #555555;
+  border-color: #333333;
+}
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+a {
+  color: #333333;
+}
+/* nav background on mobile */
+nav {
+  background: #333333;
+}
+/* nav links */
+nav a, nav a:visited {
+  color: #fff;
+}
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #888888;
 }
