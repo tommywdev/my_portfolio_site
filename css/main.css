@@ -108,6 +108,9 @@ PAGE: ABOUT
   border: 3px #555555 solid;
   border-radius: 100%;
 }
+div section h3 {
+  margin-top: 0;
+}
 /************************
 PAGE: CONTACT
 ************************/
@@ -133,6 +136,9 @@ PAGE: CONTACT
 }
 .contact-info li.twitter a {
   background-image: url('../img/twitter.png');
+}
+#wrapper #primary h3 {
+  margin-top: 0;
 }
 /************************
 COLORS
